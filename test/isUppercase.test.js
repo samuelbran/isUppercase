@@ -9,9 +9,9 @@ test('Should not run if not a valid string', () => {
 })
 
 test('Should return true', () => {
-  expect(isUppercase('Āmuel')).toBe(true)
+  expect(isUppercase('Samuel')).toBe(true)
 })
 
 test('Should return false', () => {
-  expect(isUppercase('āmuel')).toBe(false)
+  expect(isUppercase('samuel')).toBe(false)
 })
